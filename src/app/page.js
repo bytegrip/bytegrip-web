@@ -65,7 +65,7 @@ export default function Home() {
         >
           <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-8 overflow-hidden flex">
             <span className="sr-only">WIP</span>
-            {['W', 'I', ',P'].map((letter, index) => (
+            {['W', 'I', 'P'].map((letter, index) => (
                 <motion.span
                     key={index}
                     className={`pb-6 letter inline-block ${letter === ' ' ? 'w-4' : ''}`}
